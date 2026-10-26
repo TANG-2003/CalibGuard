@@ -1,0 +1,7 @@
+{
+  "best_epoch": 6,
+  "epochs_completed": 8,
+  "best_validation_unsafe_f1": 0.9879376287143278,
+  "total_runtime_seconds": 2970.9626321792603,
+  "is_smoke_test_run": false
+}

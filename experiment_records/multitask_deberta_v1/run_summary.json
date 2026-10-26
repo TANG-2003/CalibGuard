@@ -1,0 +1,36 @@
+{
+  "total_runtime_seconds": 1231.7385609149933,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_batches": 4586,
+      "mean_train_loss": 0.1903390714882778,
+      "mean_binary_loss": 0.08064728125567536,
+      "mean_risk_loss": 0.18826783906929992,
+      "mean_domain_loss": 0.17737144736002042,
+      "epoch_seconds": 400.29146671295166
+    },
+    {
+      "epoch": 2,
+      "train_batches": 4586,
+      "mean_train_loss": 0.08144848739604522,
+      "mean_binary_loss": 0.01971916398997564,
+      "mean_risk_loss": 0.11090539542716882,
+      "mean_domain_loss": 0.09485900762342274,
+      "epoch_seconds": 396.25025749206543
+    },
+    {
+      "epoch": 3,
+      "train_batches": 4586,
+      "mean_train_loss": 0.05728274135722411,
+      "mean_binary_loss": 0.006213421406838809,
+      "mean_risk_loss": 0.09132774479888668,
+      "mean_domain_loss": 0.07890331494192217,
+      "epoch_seconds": 402.17962527275085
+    }
+  ],
+  "metrics_file": "results/multitask_deberta_v1/id_test_metrics.json",
+  "predictions_file": "results/multitask_deberta_v1/id_test_predictions.csv",
+  "checkpoint_dir": "results/multitask_deberta_v1/checkpoints/epoch_3",
+  "is_smoke_test_run": false
+}

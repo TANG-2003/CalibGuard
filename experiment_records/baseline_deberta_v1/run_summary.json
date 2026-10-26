@@ -1,0 +1,27 @@
+{
+  "total_runtime_seconds": 1205.8452560901642,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_batches": 4586,
+      "mean_train_loss": 0.0841123223029652,
+      "epoch_seconds": 392.18632555007935
+    },
+    {
+      "epoch": 2,
+      "train_batches": 4586,
+      "mean_train_loss": 0.019254995552098496,
+      "epoch_seconds": 390.95477771759033
+    },
+    {
+      "epoch": 3,
+      "train_batches": 4586,
+      "mean_train_loss": 0.005960584090895731,
+      "epoch_seconds": 390.4688220024109
+    }
+  ],
+  "metrics_file": "results/baseline_deberta_v1/id_test_metrics.json",
+  "predictions_file": "results/baseline_deberta_v1/id_test_predictions.csv",
+  "checkpoint_dir": "results/baseline_deberta_v1/checkpoints/epoch_3",
+  "is_smoke_test_run": false
+}

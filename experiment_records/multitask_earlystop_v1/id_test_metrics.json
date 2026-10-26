@@ -1,0 +1,41 @@
+{
+  "evaluated_samples": 31444,
+  "safe_samples": 24157,
+  "unsafe_samples": 7287,
+  "threshold": 0.5,
+  "accuracy": 0.9945299580206081,
+  "balanced_accuracy": 0.9920794711604208,
+  "unsafe_precision": 0.9888690394393294,
+  "unsafe_recall": 0.9875120076849183,
+  "unsafe_f1": 0.9881900576764625,
+  "specificity_safe_recall": 0.9966469346359234,
+  "safe_false_positive_rate_over_refusal_proxy": 0.003353065364076665,
+  "roc_auc": 0.9992449074290496,
+  "average_precision_unsafe": 0.9972588850604899,
+  "confusion_matrix": {
+    "tn_safe_correct": 24076,
+    "fp_safe_predicted_unsafe": 81,
+    "fn_unsafe_predicted_safe": 91,
+    "tp_unsafe_correct": 7196
+  },
+  "mean_batch_binary_loss": 0.03507089950344421,
+  "risk_auxiliary": {
+    "labeled_samples": 7287,
+    "micro_f1_at_0.5": 0.6713962264150943,
+    "macro_f1_at_0.5": 0.4975641572106051,
+    "micro_average_precision": 0.7353076772286311,
+    "label_count": 22
+  },
+  "domain_auxiliary": {
+    "labeled_samples": 7679,
+    "micro_f1_at_0.5": 0.7638026342728451,
+    "macro_f1_at_0.5": 0.5410374475920494,
+    "micro_average_precision": 0.8259252194989136,
+    "label_count": 19
+  },
+  "best_epoch": 6,
+  "best_validation_unsafe_f1": 0.9879376287143278,
+  "selection_metric": "validation_unsafe_f1",
+  "is_smoke_test_run": false,
+  "test_protocol": "full ID test"
+}
