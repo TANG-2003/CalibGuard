@@ -1,0 +1,38 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datasets and model weights
+**/data/
+**/models/
+**/backups/
+**/checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Generated outputs and logs
+**/logs/
+**/results/
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Third-party projects (review separately)
+external/
+
+# Local machine files
+.DS_Store
+Thumbs.db
