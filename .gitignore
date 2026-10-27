@@ -36,3 +36,11 @@ external/
 # Local machine files
 .DS_Store
 Thumbs.db
+
+# Temporary synchronization directories
+/incoming_stage2/
+/CalibGuard_GPU/
+
+# Python caches
+__pycache__/
+*.pyc
