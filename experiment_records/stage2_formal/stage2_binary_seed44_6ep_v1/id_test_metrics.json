@@ -1,0 +1,31 @@
+{
+  "variant": "binary",
+  "seed": 44,
+  "training_epochs": 6,
+  "selected_epoch": 5,
+  "evaluation_split": "test_id",
+  "evaluation_data": "frozen_v2",
+  "model_selection": "validation_unsafe_f1",
+  "metrics": {
+    "evaluated_samples": 31444,
+    "safe_samples": 24157,
+    "unsafe_samples": 7287,
+    "threshold": 0.5,
+    "accuracy": 0.9943709451723699,
+    "balanced_accuracy": 0.9916405596323792,
+    "unsafe_precision": 0.9891304347826086,
+    "unsafe_recall": 0.9865513928914506,
+    "unsafe_f1": 0.9878392305049811,
+    "specificity_safe_recall": 0.9967297263733079,
+    "safe_false_positive_rate_over_refusal_proxy": 0.003270273626692056,
+    "roc_auc": 0.9993596166480107,
+    "average_precision_unsafe": 0.9984113089339594,
+    "confusion_matrix": {
+      "tn_safe_correct": 24078,
+      "fp_safe_predicted_unsafe": 79,
+      "fn_unsafe_predicted_safe": 98,
+      "tp_unsafe_correct": 7189
+    },
+    "mean_batch_binary_loss": 0.04552705725081622
+  }
+}

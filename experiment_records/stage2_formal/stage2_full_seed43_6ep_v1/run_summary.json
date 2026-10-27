@@ -1,0 +1,13 @@
+{
+  "variant": "full",
+  "best_epoch": 5,
+  "best_validation_unsafe_f1": 0.9891717881182324,
+  "epochs_completed": 6,
+  "snapshots": [
+    6
+  ],
+  "total_runtime_seconds": 2180.6124863624573,
+  "is_smoke_test_run": false,
+  "id_test_was_evaluated": false,
+  "validation_hash_sha256": "78dc4064cc37f938ef115a97b3456260eee1e71b4563f6495cf02b8bc145ee96"
+}

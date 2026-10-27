@@ -44,3 +44,12 @@ Thumbs.db
 # Python caches
 __pycache__/
 *.pyc
+/incoming_stage2/
+/CalibGuard_GPU/
+/backups/
+/experiment_records/stage2/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.safetensors

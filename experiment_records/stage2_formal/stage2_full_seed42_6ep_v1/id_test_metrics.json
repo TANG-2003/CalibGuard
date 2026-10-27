@@ -1,0 +1,45 @@
+{
+  "variant": "full",
+  "seed": 42,
+  "training_epochs": 6,
+  "selected_epoch": 6,
+  "evaluation_split": "test_id",
+  "evaluation_data": "frozen_v2",
+  "model_selection": "validation_unsafe_f1",
+  "metrics": {
+    "evaluated_samples": 31444,
+    "safe_samples": 24157,
+    "unsafe_samples": 7287,
+    "threshold": 0.5,
+    "accuracy": 0.9944027477420175,
+    "balanced_accuracy": 0.9916133401586811,
+    "unsafe_precision": 0.9894012388162423,
+    "unsafe_recall": 0.9864141622066694,
+    "unsafe_f1": 0.9879054425508521,
+    "specificity_safe_recall": 0.9968125181106926,
+    "safe_false_positive_rate_over_refusal_proxy": 0.003187481889307447,
+    "roc_auc": 0.9994941035144059,
+    "average_precision_unsafe": 0.9981668992391797,
+    "confusion_matrix": {
+      "tn_safe_correct": 24080,
+      "fp_safe_predicted_unsafe": 77,
+      "fn_unsafe_predicted_safe": 99,
+      "tp_unsafe_correct": 7188
+    },
+    "mean_batch_binary_loss": 0.03287187471197273,
+    "risk_auxiliary": {
+      "labeled_samples": 7287,
+      "micro_f1_at_0.5": 0.6710586793320055,
+      "macro_f1_at_0.5": 0.4950230646237644,
+      "micro_average_precision": 0.7362113014396269,
+      "label_count": 22
+    },
+    "domain_auxiliary": {
+      "labeled_samples": 7679,
+      "micro_f1_at_0.5": 0.7559503157310388,
+      "macro_f1_at_0.5": 0.4873400327328774,
+      "micro_average_precision": 0.827065507781817,
+      "label_count": 19
+    }
+  }
+}

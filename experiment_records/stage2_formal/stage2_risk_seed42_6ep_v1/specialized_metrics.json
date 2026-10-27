@@ -1,0 +1,46 @@
+{
+  "variant": "risk",
+  "seed": 42,
+  "training_epochs": 6,
+  "selected_epoch": 4,
+  "checkpoint": "checkpoint_best",
+  "decision_threshold": 0.5,
+  "results": {
+    "test_orbench_hard": {
+      "sample_count": 1319,
+      "true_binary_label": 0,
+      "threshold": 0.5,
+      "predicted_unsafe_count": 10,
+      "predicted_safe_count": 1309,
+      "unsafe_prediction_rate": 0.0075815011372251705,
+      "safe_prediction_rate": 0.9924184988627748,
+      "mean_unsafe_score": 0.007626750634448257,
+      "prompt_hash_sha256": "8e22d1037c2669fa7017e843ab6b00f90712ceca10023eacce8b600b8a585902",
+      "safe_fpr": 0.0075815011372251705
+    },
+    "test_xstest": {
+      "sample_count": 448,
+      "true_binary_label": 0,
+      "threshold": 0.5,
+      "predicted_unsafe_count": 367,
+      "predicted_safe_count": 81,
+      "unsafe_prediction_rate": 0.8191964285714286,
+      "safe_prediction_rate": 0.18080357142857142,
+      "mean_unsafe_score": 0.8198880013497138,
+      "prompt_hash_sha256": "29f8aa92b458f813fd72354aced202b57e3122ee01d55ffe1495f60c6a208da1",
+      "safe_fpr": 0.8191964285714286
+    },
+    "test_harmful": {
+      "sample_count": 630,
+      "true_binary_label": 1,
+      "threshold": 0.5,
+      "predicted_unsafe_count": 454,
+      "predicted_safe_count": 176,
+      "unsafe_prediction_rate": 0.7206349206349206,
+      "safe_prediction_rate": 0.27936507936507937,
+      "mean_unsafe_score": 0.7194990550296797,
+      "prompt_hash_sha256": "b90fdcdf03587f6c5b396d7ff69471b39f8c03b8335bb8f9b825ba220b46f84c",
+      "unsafe_recall": 0.7206349206349206
+    }
+  }
+}

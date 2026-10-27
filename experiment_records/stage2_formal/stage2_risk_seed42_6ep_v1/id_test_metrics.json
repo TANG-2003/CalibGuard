@@ -1,0 +1,38 @@
+{
+  "variant": "risk",
+  "seed": 42,
+  "training_epochs": 6,
+  "selected_epoch": 4,
+  "evaluation_split": "test_id",
+  "evaluation_data": "frozen_v2",
+  "model_selection": "validation_unsafe_f1",
+  "metrics": {
+    "evaluated_samples": 31444,
+    "safe_samples": 24157,
+    "unsafe_samples": 7287,
+    "threshold": 0.5,
+    "accuracy": 0.9934486706525887,
+    "balanced_accuracy": 0.9893152928467421,
+    "unsafe_precision": 0.9900346020761246,
+    "unsafe_recall": 0.9816110882393303,
+    "unsafe_f1": 0.9858048511576626,
+    "specificity_safe_recall": 0.9970194974541541,
+    "safe_false_positive_rate_over_refusal_proxy": 0.0029805025458459248,
+    "roc_auc": 0.9995043630092404,
+    "average_precision_unsafe": 0.9981910036673527,
+    "confusion_matrix": {
+      "tn_safe_correct": 24085,
+      "fp_safe_predicted_unsafe": 72,
+      "fn_unsafe_predicted_safe": 134,
+      "tp_unsafe_correct": 7153
+    },
+    "mean_batch_binary_loss": 0.043583138082765295,
+    "risk_auxiliary": {
+      "labeled_samples": 7287,
+      "micro_f1_at_0.5": 0.6476735862562634,
+      "macro_f1_at_0.5": 0.46778491561243674,
+      "micro_average_precision": 0.7008320405805102,
+      "label_count": 22
+    }
+  }
+}

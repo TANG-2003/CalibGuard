@@ -1,0 +1,429 @@
+{
+  "seed": 44,
+  "variant": "full",
+  "evaluation_split": "test_id",
+  "evaluation_samples": 31444,
+  "training_epochs": 6,
+  "selected_epoch": 6,
+  "auxiliary_threshold": 0.5,
+  "risk": {
+    "labeled_samples": 7287,
+    "per_class": [
+      {
+        "class_name": "Abusive Content",
+        "labeled_samples": 7287,
+        "support": 1014,
+        "predicted_positive": 918,
+        "precision": 0.8115468409586056,
+        "recall": 0.7347140039447732,
+        "f1": 0.7712215320910973,
+        "average_precision": 0.8336413106990123
+      },
+      {
+        "class_name": "Bias Content",
+        "labeled_samples": 7287,
+        "support": 684,
+        "predicted_positive": 546,
+        "precision": 0.76007326007326,
+        "recall": 0.6067251461988304,
+        "f1": 0.6747967479674797,
+        "average_precision": 0.7527363446722222
+      },
+      {
+        "class_name": "CBRN Information or Capabilities",
+        "labeled_samples": 7287,
+        "support": 295,
+        "predicted_positive": 306,
+        "precision": 0.7320261437908496,
+        "recall": 0.7593220338983051,
+        "f1": 0.7454242928452579,
+        "average_precision": 0.7962273855467754
+      },
+      {
+        "class_name": "Child Safety",
+        "labeled_samples": 7287,
+        "support": 128,
+        "predicted_positive": 7,
+        "precision": 0.8571428571428571,
+        "recall": 0.046875,
+        "f1": 0.08888888888888889,
+        "average_precision": 0.5101145838675835
+      },
+      {
+        "class_name": "Confabulation",
+        "labeled_samples": 7287,
+        "support": 21,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.04812447999266676
+      },
+      {
+        "class_name": "Crime Content",
+        "labeled_samples": 7287,
+        "support": 697,
+        "predicted_positive": 593,
+        "precision": 0.8431703204047217,
+        "recall": 0.7173601147776184,
+        "f1": 0.7751937984496124,
+        "average_precision": 0.8335916396537169
+      },
+      {
+        "class_name": "Cybersecurity Threats (Beyond Malware)",
+        "labeled_samples": 7287,
+        "support": 855,
+        "predicted_positive": 805,
+        "precision": 0.8360248447204969,
+        "recall": 0.7871345029239766,
+        "f1": 0.810843373493976,
+        "average_precision": 0.8729681888297322
+      },
+      {
+        "class_name": "Data Privacy",
+        "labeled_samples": 7287,
+        "support": 264,
+        "predicted_positive": 218,
+        "precision": 0.7798165137614679,
+        "recall": 0.6439393939393939,
+        "f1": 0.7053941908713693,
+        "average_precision": 0.7278461704189697
+      },
+      {
+        "class_name": "Decision-Making in Critical Systems",
+        "labeled_samples": 7287,
+        "support": 72,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.22549329414992272
+      },
+      {
+        "class_name": "Economic Harm",
+        "labeled_samples": 7287,
+        "support": 212,
+        "predicted_positive": 162,
+        "precision": 0.654320987654321,
+        "recall": 0.5,
+        "f1": 0.5668449197860963,
+        "average_precision": 0.5802547838832256
+      },
+      {
+        "class_name": "Election Interference",
+        "labeled_samples": 7287,
+        "support": 41,
+        "predicted_positive": 1,
+        "precision": 1.0,
+        "recall": 0.024390243902439025,
+        "f1": 0.047619047619047616,
+        "average_precision": 0.5279272863998802
+      },
+      {
+        "class_name": "Environmental Harm",
+        "labeled_samples": 7287,
+        "support": 123,
+        "predicted_positive": 84,
+        "precision": 0.7023809523809523,
+        "recall": 0.4796747967479675,
+        "f1": 0.5700483091787439,
+        "average_precision": 0.5776062846527096
+      },
+      {
+        "class_name": "Extremism and Radicalization",
+        "labeled_samples": 7287,
+        "support": 49,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.2560681387453903
+      },
+      {
+        "class_name": "Hateful Content",
+        "labeled_samples": 7287,
+        "support": 531,
+        "predicted_positive": 440,
+        "precision": 0.8227272727272728,
+        "recall": 0.6817325800376648,
+        "f1": 0.7456230690010298,
+        "average_precision": 0.8253931438993664
+      },
+      {
+        "class_name": "Illegal Weapons (Non-CBRN)",
+        "labeled_samples": 7287,
+        "support": 153,
+        "predicted_positive": 99,
+        "precision": 0.8787878787878788,
+        "recall": 0.5686274509803921,
+        "f1": 0.6904761904761905,
+        "average_precision": 0.7545474576420137
+      },
+      {
+        "class_name": "Intellectual Property",
+        "labeled_samples": 7287,
+        "support": 40,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.20003642671108862
+      },
+      {
+        "class_name": "Malware Code",
+        "labeled_samples": 7287,
+        "support": 345,
+        "predicted_positive": 344,
+        "precision": 0.7325581395348837,
+        "recall": 0.7304347826086957,
+        "f1": 0.7314949201741655,
+        "average_precision": 0.786461931267489
+      },
+      {
+        "class_name": "Misinformation",
+        "labeled_samples": 7287,
+        "support": 414,
+        "predicted_positive": 313,
+        "precision": 0.7124600638977636,
+        "recall": 0.538647342995169,
+        "f1": 0.6134800550206327,
+        "average_precision": 0.6362620182924815
+      },
+      {
+        "class_name": "Other",
+        "labeled_samples": 7287,
+        "support": 471,
+        "predicted_positive": 215,
+        "precision": 0.5255813953488372,
+        "recall": 0.23991507430997877,
+        "f1": 0.3294460641399417,
+        "average_precision": 0.41435272422495717
+      },
+      {
+        "class_name": "Self-Harm Content",
+        "labeled_samples": 7287,
+        "support": 480,
+        "predicted_positive": 447,
+        "precision": 0.7203579418344519,
+        "recall": 0.6708333333333333,
+        "f1": 0.6947141316073355,
+        "average_precision": 0.7756466194332832
+      },
+      {
+        "class_name": "Sexual Content",
+        "labeled_samples": 7287,
+        "support": 206,
+        "predicted_positive": 155,
+        "precision": 0.7870967741935484,
+        "recall": 0.5922330097087378,
+        "f1": 0.6759002770083102,
+        "average_precision": 0.7064002588464816
+      },
+      {
+        "class_name": "Violent Content",
+        "labeled_samples": 7287,
+        "support": 234,
+        "predicted_positive": 151,
+        "precision": 0.7019867549668874,
+        "recall": 0.452991452991453,
+        "f1": 0.5506493506493506,
+        "average_precision": 0.593232494295118
+      }
+    ]
+  },
+  "domain": {
+    "labeled_samples": 7679,
+    "per_class": [
+      {
+        "class_name": "Biology",
+        "labeled_samples": 7679,
+        "support": 411,
+        "predicted_positive": 404,
+        "precision": 0.8688118811881188,
+        "recall": 0.8540145985401459,
+        "f1": 0.8613496932515338,
+        "average_precision": 0.9189179577303792
+      },
+      {
+        "class_name": "Education",
+        "labeled_samples": 7679,
+        "support": 109,
+        "predicted_positive": 10,
+        "precision": 0.8,
+        "recall": 0.07339449541284404,
+        "f1": 0.13445378151260504,
+        "average_precision": 0.5498503360712886
+      },
+      {
+        "class_name": "Entertainment",
+        "labeled_samples": 7679,
+        "support": 174,
+        "predicted_positive": 80,
+        "precision": 0.925,
+        "recall": 0.42528735632183906,
+        "f1": 0.5826771653543307,
+        "average_precision": 0.6682824508534283
+      },
+      {
+        "class_name": "Environment",
+        "labeled_samples": 7679,
+        "support": 86,
+        "predicted_positive": 45,
+        "precision": 0.8,
+        "recall": 0.4186046511627907,
+        "f1": 0.549618320610687,
+        "average_precision": 0.6041349058752447
+      },
+      {
+        "class_name": "Family",
+        "labeled_samples": 7679,
+        "support": 807,
+        "predicted_positive": 772,
+        "precision": 0.783678756476684,
+        "recall": 0.7496902106567535,
+        "f1": 0.766307789740342,
+        "average_precision": 0.8377512967952703
+      },
+      {
+        "class_name": "Finance",
+        "labeled_samples": 7679,
+        "support": 256,
+        "predicted_positive": 222,
+        "precision": 0.8423423423423423,
+        "recall": 0.73046875,
+        "f1": 0.7824267782426778,
+        "average_precision": 0.8107825523947749
+      },
+      {
+        "class_name": "General Knowledge",
+        "labeled_samples": 7679,
+        "support": 2477,
+        "predicted_positive": 2412,
+        "precision": 0.7599502487562189,
+        "recall": 0.7400080742834073,
+        "f1": 0.7498465943955819,
+        "average_precision": 0.7996715538127953
+      },
+      {
+        "class_name": "Healthcare",
+        "labeled_samples": 7679,
+        "support": 749,
+        "predicted_positive": 687,
+        "precision": 0.8602620087336245,
+        "recall": 0.7890520694259012,
+        "f1": 0.8231197771587744,
+        "average_precision": 0.8954470320485748
+      },
+      {
+        "class_name": "Infrastructure",
+        "labeled_samples": 7679,
+        "support": 58,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.30076155393288456
+      },
+      {
+        "class_name": "Law",
+        "labeled_samples": 7679,
+        "support": 220,
+        "predicted_positive": 76,
+        "precision": 0.6842105263157895,
+        "recall": 0.23636363636363636,
+        "f1": 0.35135135135135137,
+        "average_precision": 0.4823865253836541
+      },
+      {
+        "class_name": "Military",
+        "labeled_samples": 7679,
+        "support": 96,
+        "predicted_positive": 65,
+        "precision": 0.7230769230769231,
+        "recall": 0.4895833333333333,
+        "f1": 0.5838509316770186,
+        "average_precision": 0.62104054143879
+      },
+      {
+        "class_name": "Nutrition",
+        "labeled_samples": 7679,
+        "support": 108,
+        "predicted_positive": 53,
+        "precision": 0.7924528301886793,
+        "recall": 0.3888888888888889,
+        "f1": 0.5217391304347826,
+        "average_precision": 0.548424870495016
+      },
+      {
+        "class_name": "Politics",
+        "labeled_samples": 7679,
+        "support": 534,
+        "predicted_positive": 500,
+        "precision": 0.784,
+        "recall": 0.7340823970037453,
+        "f1": 0.758220502901354,
+        "average_precision": 0.8212737739726765
+      },
+      {
+        "class_name": "Religion",
+        "labeled_samples": 7679,
+        "support": 39,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.21082543255887826
+      },
+      {
+        "class_name": "Retail",
+        "labeled_samples": 7679,
+        "support": 30,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.21798329026486502
+      },
+      {
+        "class_name": "Sports",
+        "labeled_samples": 7679,
+        "support": 74,
+        "predicted_positive": 14,
+        "precision": 0.9285714285714286,
+        "recall": 0.17567567567567569,
+        "f1": 0.29545454545454547,
+        "average_precision": 0.5666642469945793
+      },
+      {
+        "class_name": "Technology",
+        "labeled_samples": 7679,
+        "support": 1217,
+        "predicted_positive": 1111,
+        "precision": 0.9531953195319532,
+        "recall": 0.8701725554642563,
+        "f1": 0.9097938144329897,
+        "average_precision": 0.9540881024660797
+      },
+      {
+        "class_name": "Travel",
+        "labeled_samples": 7679,
+        "support": 33,
+        "predicted_positive": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "average_precision": 0.04428685135250574
+      },
+      {
+        "class_name": "Workplace",
+        "labeled_samples": 7679,
+        "support": 248,
+        "predicted_positive": 190,
+        "precision": 0.8368421052631579,
+        "recall": 0.6411290322580645,
+        "f1": 0.726027397260274,
+        "average_precision": 0.7326862657912522
+      }
+    ]
+  }
+}
