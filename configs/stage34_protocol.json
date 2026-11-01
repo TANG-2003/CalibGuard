@@ -1,0 +1,20 @@
+{
+  "project": "CalibGuard",
+  "frozen_stage2": "6 epochs, Full Multi-task, seeds 42/43/44, validation selected checkpoint",
+  "train_total": 73365,
+  "fit_rows": 66028,
+  "validation_rows": 7337,
+  "id_test_rows": 31444,
+  "validation_hash_sha256": "78dc4064cc37f938ef115a97b3456260eee1e71b4563f6495cf02b8bc145ee96",
+  "stage3_mode": "empirical calibration on same validation used for checkpoint selection",
+  "alpha": 0.01,
+  "shrinkage_kappa": 100.0,
+  "review_width": 0.05,
+  "routing_score": "binary unsafe probability",
+  "routing_risk_assignment": "predicted argmax of 22 Risk Head sigmoid outputs",
+  "risk_category_positive_calibration": "unsafe labeled examples of each risk, global safe threshold",
+  "guarantee_warning": "Not independent split conformal; no formal finite-sample guarantee or per-risk benign FPR guarantee",
+  "review_model": "external API adjudicator, provider/price/version must be recorded at runtime",
+  "strict_loo": "Requires model retraining per fold, not implemented as completed experiment",
+  "test_policy": "No fitting or threshold adjustment on ID or specialized test subsets"
+}
